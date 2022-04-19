@@ -1,0 +1,26 @@
+@media (maxwidth: 1300px) {
+
+}
+
+@media (max-width: 768px) {
+    header .gnb li.center,
+    header .gnb li.push-right {
+        display: none;
+    }
+
+    .about .flx-cont {
+        flex-direction: column;
+    }
+    .about .photo {
+        align-self: center;
+    }
+    .projects .block {
+        display: flex;
+        flex-direction: column;
+    }  
+    .projects .block iframe {
+        align-self: center;
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+}
