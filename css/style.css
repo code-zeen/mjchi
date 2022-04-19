@@ -108,9 +108,12 @@ header .gnb li.center:hover a {
     font-weight: bolder;
     color: #f9faf8;
 }
+.about-me h2 span {
+    font-weight: 200;
+}
 .about-me p {
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 200;
     line-height: 1.5em;
     color: #e5e7eb;
 }
@@ -119,6 +122,7 @@ header .gnb li.center:hover a {
 }
 .about-me p a {
     color: cornflowerblue;
+    font-weight: 300;
 }
 .about-me p a:hover {
     color: #3882f6;
@@ -126,12 +130,12 @@ header .gnb li.center:hover a {
 }
 .about .link {
     display: flex;
-    gap: 12px;
+    gap: 16px;
 }
 .about .bundle {
     border: 1px solid #fff;
     border-radius: 5px;
-    width: 200px; height: 40px; line-height: 40px;
+    width: 240px; height: 40px; line-height: 40px;
     text-align: center;
     transition: 0.2s;
 }
