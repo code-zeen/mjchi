@@ -19,6 +19,9 @@
     .about-me h2 {
         text-align: center;
     }
+    .about-me p {
+        margin-left: 20px;
+    }
 
     .projects .flx-cont {
         padding: 20px;
