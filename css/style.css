@@ -84,10 +84,12 @@ header .gnb li.center:hover a {
 }
 .photo {
     display: flex;
-    flex: 1 auto;
+    flex: 1 1 auto;
 }
 .photo img {
-    width: 468px; height: auto;
+    width: 100%;
+    max-width: 468px;
+    height: auto;
 }
 .about-me {
     display: flex;
