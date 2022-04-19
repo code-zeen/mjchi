@@ -18,6 +18,7 @@ body {
     background: rgb(24,53,92);
     background: linear-gradient(27deg, rgba(24,53,92,1) 0%, rgba(31,41,55,1) 47%, rgba(36,69,113,1) 100%);100%); 
     color: #fff;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -182,7 +183,11 @@ header .gnb a:hover {
 }
 .projects .block h4 {
     margin: 24px 0;
-    font-weight: 400;
+    font-weight: 500;
+    font-size: 17px;
+}
+.projects .block h4 strong {
+    font-weight: 800;
 }
 .projects .block p {
     line-height: 1.6em;
